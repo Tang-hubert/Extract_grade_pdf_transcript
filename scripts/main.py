@@ -170,7 +170,7 @@ def process_pdf(pdf_name, b, this_stud_id):
             error_id.append(f'{b}')
             error_student_id.append(f'{this_stud_id}')
             if lines[0] == "":
-                _error_status = f'Pictire.'
+                _error_status = f'Picture.'
                 error_status.append(f'{_error_status}')
                 logging.info(f"{b}  {this_stud_id}  {_error_status}")
             else:
