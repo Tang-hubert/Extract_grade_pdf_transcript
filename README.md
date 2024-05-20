@@ -2,6 +2,9 @@
 
 Extract grades by terms from different students using `pdfplumber`.
 
+> original author: Jennifer Yen
+> Recreate author: Hubert Tang
+
 ## Usage
 1. Have a bunch of student transcripts (in PDF format).
 2. Create an `output` folder.
